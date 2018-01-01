@@ -120,6 +120,11 @@ textarea {
     font-weight: bold;
 }
 
+#name {
+    color: black;
+    text-decoration: none;
+}
+
 .content {
     font-family: 'Academic';
 }
@@ -127,7 +132,7 @@ textarea {
 .content h1 {
     color: black;
     margin-bottom: -15px;
-}
+}   
 
 p.lead {
     font-size: 11pt;
