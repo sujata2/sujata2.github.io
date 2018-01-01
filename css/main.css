@@ -96,21 +96,76 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+    font-family: 'Academic';
+    src: url('/fonts/Neue Haas Grotesk Display/MIT.ttf');
+}
 
+@font-face {
+    font-family: 'Academic';
+    src: url('/fonts/Neue Haas Grotesk Display/MIT-bold.ttf');
+    font-weight: bold;
+}
 
+@font-face {
+    font-family: 'Academic';
+    src: url('/fonts/Neue Haas Grotesk Display/MIT-italic.ttf');
+    font-style: italic;
+}
 
+@font-face {
+    font-family: 'Academic';
+    src: url('/fonts/Neue Haas Grotesk Display/MIT-bold-italic.ttf');
+    font-style: italic;
+    font-weight: bold;
+}
 
+.content {
+    font-family: 'Academic';
+}
 
+.content h1 {
+    color: black;
+    margin-bottom: -15px;
+}
 
+p.lead {
+    font-size: 11pt;
+}
 
+.header {
+    text-align: center;
+}
 
+.nav a {
+    font-family: 'Menlo';
+    font-size: 10pt;
+    text-decoration: none;
+    color: #c0392b;
+}
 
+.nav a:hover {
+    text-decoration: underline;
+    color: #e74c3c;
+}
 
+.main {
+    margin-top: 60px;
+}
 
+.main img#profile {
+    width: 100%;
+}
 
+.main #bio {
+    font-size: 11pt;
+}
 
-
-
+@media screen and (max-width: 480px) {
+    .nav a {
+	font-size: 8pt;
+    }
+}
 
 
 /* ==========================================================================
